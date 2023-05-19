@@ -6,4 +6,7 @@ node(){
         checkout scm
         echo 'init-test'
     }
+    stage('deployIntegrationArtifact Command'){
+        integrationArtifactDeploy script: this
+    }
 }

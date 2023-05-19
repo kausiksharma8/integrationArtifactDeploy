@@ -1,0 +1,4 @@
+steps:
+  integrationArtifactDeploy:
+    cpiApiServiceKeyCredentialsId: KAUSIK_API_KEY_CRED
+    integrationFlowId: new_flow
